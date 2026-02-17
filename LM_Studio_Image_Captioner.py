@@ -50,7 +50,7 @@ THEME_LIGHT = {
 class CaptionApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("LM Studio Image Captioner")
+        self.root.title("LM_Studio_Image_Captioner")
         self.root.geometry("600x800")
 
         # --- UI LAYOUT ---

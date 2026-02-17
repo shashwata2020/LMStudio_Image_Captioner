@@ -1,4 +1,4 @@
-# LMStudio Image Captioner
+# LM_Studio_Image_Captioner
 
 A simple desktop tool for automatically generating captions for image datasets using a locally running Vision Language Model (VLM) via [LM Studio](https://lmstudio.ai/). Ideal for preparing datasets for diffusion model fine-tuning, LoRA, or LoCon/LoKr training.
 
@@ -33,18 +33,18 @@ A simple desktop tool for automatically generating captions for image datasets u
 
 1. Open **LM Studio**
 2. Go to the **Developer** tab (or Server tab)
-3. Load a Vision Language Model (e.g. `llava`, `moondream`, `qwen-vl`, etc.)
+3. Load a Vision Language Model
 4. Click **Start Server** — it runs at `http://localhost:1234` by default
 
 ### Step 2 — Run the Captioner
 
 **Option A — Executable (easiest):**
-Download `LMStudio_Image_Captioner.exe` from the [`dist`](dist/) folder and run it directly. No installation required.
+Download `LM_Studio_Image_Captioner.exe` from the [`dist`](dist/) folder and run it directly. No installation required.
 
 **Option B — From source:**
 ```bash
 pip install requests
-python LMStudio_Image_Captioner.py
+python LM_Studio_Image_Captioner.py
 ```
 
 ### Step 3 — Caption Your Images
@@ -62,22 +62,6 @@ dataset/
 ├── image_002.jpg
 ├── image_002.txt   ← generated caption
 ...
-```
-
----
-
-## Prompt Tips
-
-For diffusion model training datasets, a good starting point for your prompts:
-
-**System Prompt:**
-```
-You are an expert at writing detailed, accurate image captions for AI training datasets.
-```
-
-**User Prompt:**
-```
-Describe this image in detail. Focus on the subject, art style, colors, lighting, and composition. Be concise but thorough.
 ```
 
 ---
