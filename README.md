@@ -39,7 +39,7 @@ A simple desktop tool for automatically generating captions for image datasets u
 ### Step 2 — Run the Captioner
 
 **Option A — Executable (easiest):**
-Download `LM_Studio_Image_Captioner.exe` from the [`dist`](dist/) folder and run it directly. No installation required.
+Download `LM_Studio_Image_Captioner.exe` from the [Releases](../../releases/latest) page and run it directly. No installation required.
 
 **Option B — From source:**
 ```bash
