@@ -1,8 +1,9 @@
+# ATTENTION!!! I CAN'T REALLY CODE, THIS SHIT WORKS BUT yeah...
 # LM_Studio_Image_Captioner
 
 A simple desktop tool for automatically generating captions for image datasets using a locally running Vision Language Model (VLM) via [LM Studio](https://lmstudio.ai/). Ideal for preparing datasets for diffusion model fine-tuning, LoRA, or LoCon/LoKr training.
 
-![UI Screenshot](assets/ui.png)
+![UI Screenshot](assets/ui.PNG)
 
 ---
 
@@ -16,6 +17,8 @@ A simple desktop tool for automatically generating captions for image datasets u
 - **Thinking Model Support** — automatically strips `<think>...</think>` blocks from reasoning models
 - **Dark & Light Mode**
 - **Config Persistence** — saves your settings (URL, folder path, prompts, theme) between sessions
+- **OpenAI compatible endpoint connection
+- **Automatic image resizing (only for processing)
 
 ---
 
@@ -24,6 +27,7 @@ A simple desktop tool for automatically generating captions for image datasets u
 - [LM Studio](https://lmstudio.ai/) with a VLM loaded and the local server running
 - **To run from source:** Python 3.8+ with the `requests` library (`pip install requests`)
 - **To run the executable:** No Python needed — just download and run
+- **Needs Pillow to run image resizing (pip install pillow)
 
 ---
 
