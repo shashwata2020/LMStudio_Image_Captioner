@@ -16,17 +16,16 @@ A simple desktop tool for automatically generating captions for image datasets u
 - **Thinking Model Support** — automatically strips `<think>...</think>` blocks from reasoning models
 - **Dark & Light Mode**
 - **Config Persistence** — saves your settings (URL, folder path, prompts, theme) between sessions
-- **OpenAI compatible endpoint connection
-- **Automatic image resizing (only for processing)
+- **OpenAI compatible endpoint connection**
+- **Automatic image resizing (only for processing)**
 
 ---
 
 ## Requirements
 
 - [LM Studio](https://lmstudio.ai/) with a VLM loaded and the local server running
-- **To run from source:** Python 3.8+ with the `requests` library (`pip install requests`)
+- **To run from source:** Python 3.8+ with the `requests` library (`pip install requests`) and `pillow` library (`pip install pillow`)
 - **To run the executable:** No Python needed — just download and run
-- **Needs Pillow to run image resizing (pip install pillow)
 
 ---
 
