@@ -1,4 +1,3 @@
-# ATTENTION!!! I CAN'T REALLY CODE, THIS SHIT WORKS BUT yeah...
 # LM_Studio_Image_Captioner
 
 A simple desktop tool for automatically generating captions for image datasets using a locally running Vision Language Model (VLM) via [LM Studio](https://lmstudio.ai/). Ideal for preparing datasets for diffusion model fine-tuning, LoRA, or LoCon/LoKr training.
